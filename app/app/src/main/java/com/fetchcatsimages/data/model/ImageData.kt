@@ -2,7 +2,7 @@ package com.fetchcatsimages.data.model
 
 import com.google.gson.annotations.SerializedName
 
-data class ImageData (
+data class ImageData(
 
     @SerializedName("id")
     var id: String = "",

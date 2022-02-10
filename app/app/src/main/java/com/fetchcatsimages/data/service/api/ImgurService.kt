@@ -11,7 +11,7 @@ import retrofit2.http.GET
 interface ImgurService {
 
     @GET(BuildConfig.GET_URL)
-    suspend fun getAllImages() : Response <HTTPResponse>
+    suspend fun getAllImages(): Response<HTTPResponse>
 
     companion object {
         private fun getAuthorization(): OkHttpClient {

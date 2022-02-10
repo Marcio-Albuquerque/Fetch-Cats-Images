@@ -8,7 +8,7 @@ data class AdConfig(
     var safeFlags: List<String>? = null,
 
     @SerializedName("highRiskFlags")
-    var highRiskFlags:List<Any>? = null,
+    var highRiskFlags: List<Any>? = null,
 
     @SerializedName("unsafeFlags")
     var unsafeFlags: List<String>? = null,
